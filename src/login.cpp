@@ -6,7 +6,10 @@ bool validateLogin(const std::string& username,
     return !username.empty() && !password.empty();
 }
 
-void displayLoginForm() {
+void displayLoginForm()
+void logoutUser() {
+    std::cout << "User logged out successfully." << std::endl;
+} {
     std::string username;
     std::string password;
 
