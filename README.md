@@ -10,3 +10,10 @@ The project demonstrates basic C++ functionality while providing a practical cod
 - Adds two numbers using a dedicated function
 - Displays the calculated sum
 - Demonstrates a simple C++ project structure
+ 
+## Requirements
+
+- Ubuntu or another Linux-based operating system
+- A C++ compiler with C++11 or later support
+- Git for version control
+- A terminal for building and running the project
