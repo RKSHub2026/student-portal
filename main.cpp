@@ -10,6 +10,13 @@ void greetUser() {
     std::cout << "Hello, Developer!" << std::endl;
 }
 
+void displayApplicationName() {
+    std::cout << "Application: Student Portal" << std::endl;
+}
+
+
+
+
 int addNumbers(int a, int b) {
     return a + b;
 }
@@ -17,6 +24,7 @@ int addNumbers(int a, int b) {
 int main() {
     printWelcomeMessage();
     greetUser();
+    displayApplicationName();
 
     int num1 = 5;
     int num2 = 10;
