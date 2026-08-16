@@ -17,3 +17,10 @@ The project demonstrates basic C++ functionality while providing a practical cod
 - A C++ compiler with C++11 or later support
 - Git for version control
 - A terminal for building and running the project
+
+## Building the Project
+
+To compile the project, use a C++ compiler such as `g++`:
+
+```bash
+g++ -std=c++11 main.cpp -o student-portal
