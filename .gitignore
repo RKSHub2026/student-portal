@@ -1,0 +1,16 @@
+# C++ build files
+*.o
+*.out
+*.exe
+
+# Build directories
+build/
+bin/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
