@@ -19,8 +19,8 @@ void displayLoginForm() {
     std::cin >> password;
 
     if (validateLogin(username, password)) {
-        std::cout << "Login details received for user: "
-                  << username << std::endl;
+        std::cout << "Login successful." << std::endl;
+        std::cout << "Welcome, " << username << "!" << std::endl;
     } else {
         std::cout << "Invalid login details." << std::endl;
     }
