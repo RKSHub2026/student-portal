@@ -21,6 +21,12 @@ int addNumbers(int a, int b) {
     return a + b;
 }
 
+void displayResult(int num1, int num2, int result) {
+    std::cout << "Calculation Result:" << std::endl;
+    std::cout << num1 << " + " << num2 << " = " << result << std::endl;
+}
+
+
 int main() {
     printWelcomeMessage();
     greetUser();
@@ -30,8 +36,7 @@ int main() {
     int num2 = 10;
     int result = addNumbers(num1, num2);
 
-    std::cout << "The sum of " << num1 << " and " << num2 << " is: " << result << std::endl;
+    displayResult(num1, num2, result);
     std::cout << "Program finished successfully." << std::endl;
 
     return 0;
-}
