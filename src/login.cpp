@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 
+bool validateLogin(const std::string& username,
+                  const std::string& password) {
+    return !username.empty() && !password.empty();
+}
+
 void displayLoginForm() {
     std::string username;
     std::string password;
@@ -13,6 +18,10 @@ void displayLoginForm() {
     std::cout << "Password: ";
     std::cin >> password;
 
-    std::cout << "Login details received for user: "
-              << username << std::endl;
+    if (validateLogin(username, password)) {
+        std::cout << "Login details received for user: "
+                  << username << std::endl;
+    } else {
+        std::cout << "Invalid login details." << std::endl;
+    }
 }
