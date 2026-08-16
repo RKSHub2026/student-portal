@@ -3,3 +3,10 @@
 Student Portal is a simple C++ project created as part of a Git version control lab.
 
 The project demonstrates basic C++ functionality while providing a practical codebase for learning Git workflows such as commits, branching, merging, file operations, and history management.
+## Features
+
+- Displays a welcome message for developers
+- Greets the user when the program starts
+- Adds two numbers using a dedicated function
+- Displays the calculated sum
+- Demonstrates a simple C++ project structure
