@@ -23,7 +23,7 @@ The project demonstrates basic C++ functionality while providing a practical cod
 To compile the project, use a C++ compiler such as `g++`:
 
 ```bash
-g++ -std=c++11 main.cpp -o student-portal
+g++ -std=c++11 src/main.cpp -o student-portal
 
 ## Running the Project
 
